@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100;300&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./icons/crountch-one-piece-jolly-roger-luffys-flag-2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/style.css">
+
+    <title>Challenge 1</title>
+</head>
+<body>
+    <header class="encabezado">
+        <h1><img src="/Imagenes/Vector.png" alt="logo"></h1>
+        <h1>Challenge 1 - Encriptador de texto</h1>
+    </header>
+
+    <main>
+        <section>
+            <label for="mensaje">Mensaje:</label>
+            <div class="caja-mensaje">
+                <textarea name="" class="mensaje-encriptar" cols="80" rows="20" required placeholder="Introduzca el mensaje aqui."></textarea>
+
+            </div>
+
+            <p>
+                <img src="/Imagenes/Vector i.png" alt="i">
+                Solo letras en minúsculas y sin acentos
+            </p>
+
+            <div class="botones">
+                <button class="boton-encriptar" onclick="botonEncriptar()">Encriptar</button> <!--onclick  para JavaScript-->
+                <button class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+
+        <section>
+            <label for="mensaje">Encriptación:</label>
+            
+            <div class="encriptado">
+                <textarea name="" class="mensaje-encriptado" cols="80" rows="20" required placeholder=></textarea>
+                <p id="ningun-mensaje">Ningún mensaje fue encontrado</p>
+                <p id="ingrese-texto">Ingresa el texto que desees encríptar o desencriptar</p>
+                <div class="botones">
+                    <button id="boton-copiar" onclick="botonCopiar()" >Copiar</button>
+                </div>
+    
+            </div>
+            
+            
+        </section>
+    </main>
+
+    <footer>
+        
+        <h2>Creado por Diego Rodríguez</h2>
+        <section class="container-iconos">
+            <div class="iconos">
+                <a href="https://github.com/Diegoo117"><img class="redes" src="./Imagenes/github.png" alt="git"></a>
+                <a href="https://www.instagram.com/diegox1177/"><img class="redes" src="./Imagenes/instagram (1).png" alt="instagram"></a>
+                <a href="https://twitter.com/DiegoR18925712"><img class="redes" src="./Imagenes/gorjeo.png" alt="twiter"></a>
+    
+            </div>
+
+        </section>
+    </footer>
+
+    <script src="/script.js"></script> <!--Ensalzar archivo script-->
+
+</body>
+</html>
