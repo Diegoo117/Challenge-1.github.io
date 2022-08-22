@@ -1,8 +1,8 @@
-body{
+body {
     width: 100%;
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
-    background-image: url("/Imagenes/Fondo.jpg");
+    background-image: url("/Imagenes/Fondo.jpg") !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
