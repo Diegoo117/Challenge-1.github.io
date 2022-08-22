@@ -2,7 +2,7 @@ body {
     width: 100%;
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
-    background-image: url("/Fondo.jpg") ;
+    background-image: url("/Imagenes/Fondo.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -168,7 +168,7 @@ section label{
     width: 80%;
     height: 80%;
     margin: 0  auto;
-    background-image: url("Imagenes/Muñeco.png") ;
+    background-image: url("/Imagenes/Muñeco.png") ;
     background-repeat: no-repeat;
     background-position: center;
     border: none;
